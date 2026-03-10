@@ -147,6 +147,39 @@ class Menu:
     
     def filterByCategory(self, category):
         return [item for item in self.items if item.getCategory() == category]
+    
+    def sortByPrice(self, ascending=True):
+        """
+        Sort menu items by price.
+        
+        Args:
+            ascending (bool): If True, sort low to high; if False, sort high to low
+            
+        Returns:
+            list: Sorted list of FoodItem objects
+        """
+        pass
+
+    def sortByPopularity(self, ascending=False):
+        """
+        Sort menu items by popularity rating.
+        
+        Args:
+            ascending (bool): If True, sort low to high; if False (default), sort high to low
+            
+        Returns:
+            list: Sorted list of FoodItem objects
+        """
+        pass
+
+    def sortByName(self):
+        """
+        Sort menu items alphabetically by name.
+        
+        Returns:
+            list: Alphabetically sorted list of FoodItem objects
+        """
+        pass
 
 
 
@@ -213,6 +246,30 @@ class Transaction:
         for item in self.selectedItems:
             total += item.getPrice()
         return total
+    
+    def sortItemsByPrice(self, ascending=True):
+        """
+        Sort items in this transaction by price.
+        
+        Args:
+            ascending (bool): If True, sort low to high; if False, sort high to low
+            
+        Returns:
+            list: Sorted list of FoodItem objects
+        """
+        pass
+
+    def sortItemsByPopularity(self, ascending=False):
+        """
+        Sort items in this transaction by popularity rating.
+        
+        Args:
+            ascending (bool): If True, sort low to high; if False, sort high to low
+            
+        Returns:
+            list: Sorted list of FoodItem objects
+        """
+        pass
     
 testCustomer = Customer("Alice")
 purchase = Transaction(testCustomer)
