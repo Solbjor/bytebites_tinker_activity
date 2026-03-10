@@ -158,7 +158,7 @@ class Menu:
         Returns:
             list: Sorted list of FoodItem objects
         """
-        pass
+        return sorted(self.items, key=lambda item: item.getPrice(), reverse=not ascending)
 
     def sortByPopularity(self, ascending=False):
         """
@@ -170,7 +170,7 @@ class Menu:
         Returns:
             list: Sorted list of FoodItem objects
         """
-        pass
+        return sorted(self.items, key=lambda item: item.getPopularityRating(), reverse=not ascending)
 
     def sortByName(self):
         """
@@ -179,7 +179,7 @@ class Menu:
         Returns:
             list: Alphabetically sorted list of FoodItem objects
         """
-        pass
+        return sorted(self.items, key=lambda item: item.getName())
 
 
 
@@ -257,7 +257,7 @@ class Transaction:
         Returns:
             list: Sorted list of FoodItem objects
         """
-        pass
+        return sorted(self.selectedItems, key=lambda item: item.getPrice(), reverse=not ascending)
 
     def sortItemsByPopularity(self, ascending=False):
         """
@@ -269,7 +269,7 @@ class Transaction:
         Returns:
             list: Sorted list of FoodItem objects
         """
-        pass
+        return sorted(self.selectedItems, key=lambda item: item.getPopularityRating(), reverse=not ascending)
     
 testCustomer = Customer("Alice")
 purchase = Transaction(testCustomer)
@@ -288,3 +288,4 @@ print(f"Menu:")
 for item in menu.getAllItems():
     print(item.getName())
 print(f"Customer verified: {testCustomer.verifyUser()}")
+
