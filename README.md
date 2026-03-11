@@ -1,6 +1,6 @@
-## Tinker: ByteBits
+# Tinker: ByteBits
 
-# Activity Overview
+## Activity Overview
 
 You have joined the development team of ByteBites, a new campus food ordering app that wants to feel fast, personalized, and a little bit smart. The problem is that the current prototype is a mess. The menu structure is inconsistent, orders are unreliable, and the so-called AI recommendations suggest soup as a dessert pairing. No one knows how the system is supposed to fit together.
 
@@ -8,7 +8,7 @@ Your task is to design and build the core architecture of the app using Python c
 
 You'll practice reading vague design requests, turning them into clear system components, generating UML-style diagrams with AI, translating those diagrams into code, and testing your work with small examples. You'll also learn how to guide an AI tool into producing helpful scaffolds rather than over-engineered solutions.
 
-# Goals
+## Goals
 By completing this activity, you will be able to...
 
 - Use object-oriented design to break a feature request into core components.
