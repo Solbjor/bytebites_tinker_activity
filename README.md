@@ -1,5 +1,3 @@
-<img width="1236" height="517" alt="image" src="https://github.com/user-attachments/assets/b8b3f6e1-d9a6-4514-8239-b3a69cfafc77" /># Tinker: ByteBits
-
 ## Activity Overview
 
 You have joined the development team of ByteBites, a new campus food ordering app that wants to feel fast, personalized, and a little bit smart. The problem is that the current prototype is a mess. The menu structure is inconsistent, orders are unreliable, and the so-called AI recommendations suggest soup as a dessert pairing. No one knows how the system is supposed to fit together.
@@ -27,6 +25,9 @@ Add a short summary to the README (5–7 sentences) covering:
 The goal of this assignment was to help students get their first full experience of creating a small scale project with AI-assisted workflow. Students should understand that the goal of using AI is to enhance your workflow rather than replace it fully, by which I mean students should not simply tell the AI to do everything from the start with no knowledge of the structure of the program. Students are most likely to struggle with having the AI assist them in each phase of the plan and having the agent stay within the confines of what the requirements and phases are. What may end up happening is the agent doing more work that is outside the scope, or not following instructions properly. The AI was very helpful when it came to creating the scaffolding for the various different methods, as well as the actual creation of the UML design, it was very useful in that form. However, where it was misleading was even with the given context and prompt, for instance during the planning phase it implemented certain methods in the order that didn't make sense (child classes first before setting up the parent classes) which made the plan unclear at times. One way I would guide the student to completing this problem would be via telling them to make sure to use the AI in the proper mode for the phase thay they are in, and to refine their prompts to clearly state what it is that has to be done and what the agent should NOT be doing, such as working ahead without the student having a clear understanding of the foundation and structure of the program. 
 
 Running initial tests with random objects to verify:
+
 <img width="608" height="193" alt="image" src="https://github.com/user-attachments/assets/290afc2b-dd85-4dd8-b12f-9c8eddb2043f" />
+
 Running tests using pytest:
+
 <img width="1236" height="517" alt="image" src="https://github.com/user-attachments/assets/0d466236-f6e5-4de3-99e7-2f4f23d4fdd6" />
